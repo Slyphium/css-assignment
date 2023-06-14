@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>css 1</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
       <h1>My HTML and CSS Page</h1>
-      <nav>
+      <nav class = selectors>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -33,7 +33,7 @@
       </section>
       <section>
         <h2>My Interests</h2>
-        <ul>
+        <ul class="inline-block">
           <li>Web Development</li>
           <li>Graphic Design</li>
           <li>Photography</li>
@@ -61,7 +61,7 @@
       <hr />
       <section>
         <h2 class="section-title">Section 2: Display and Positioning in CSS</h2>
-        <section class="hero">
+        <section class="relative">
             <h2>Welcome to my website</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor erat ut metus efficitur, sit amet cursus ex lobortis. Fusce nec elementum arcu. Fusce mollis justo eu elit bibendum, sed ultricies ipsum bibendum.</p>
         </section>

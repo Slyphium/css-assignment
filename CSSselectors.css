@@ -1,0 +1,31 @@
+.p {
+    font-size: 16 px;
+    border: 1px black;
+}
+.selectors {
+    background-color: lavender;
+    padding: 20px;
+}
+.item {
+    border-radius: 2em;
+    margin-bottom: 15px;
+}
+ul li {
+    text-decoration: none purple;
+}
+.inline-block {
+    padding: 5px;
+}
+.relative {
+    top: 5 px;
+    bottom: 5 px;
+    text-align: center;
+}
+.features {
+    display: grid;
+    grid-template-columns: 1fr1fr1fr;
+    gap: 20px;
+}
+footer {
+position: fixed;
+}
